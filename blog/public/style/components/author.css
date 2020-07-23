@@ -1,0 +1,63 @@
+.author-div{
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.author-div div{
+  margin-bottom: 1rem;
+
+}
+.author-introduction{
+  font-size:.8rem;
+  color: #999;
+  
+}
+.introduction{
+  border:0.1rem solid rgb(253, 230, 230) ;
+  cursor: pointer;
+  background-color: rgb(235, 248, 205);
+  border-radius: 2rem;
+}
+.medium{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1.5rem;
+  position: relative;
+}
+.account{
+  background-color: rgb(92, 7, 7);
+  margin-left: .5rem;
+  margin-right: .5rem;
+  display: inline-block;
+  cursor: pointer;
+}
+.Wechat:hover::after{
+  content: 'qjLove108';
+  position: absolute;
+  top: -1.8rem;
+  right:4rem;
+  font-size: .8rem;
+  background-color: rgb(125, 203, 240);
+  color: #000;
+  border-radius: 5rem;
+  border: 0.2rem solid  transparent;
+  border-left: 0.2rem solid rgb(240, 4, 4);
+}
+.Github:hover::after{
+  content: 'kyrie8';
+  position: absolute;
+  top: -1.8rem;
+  right:8rem;
+  font-size: .8rem;
+  background-color: rgb(125, 203, 240);
+  color: #000;
+  border-radius: 5rem;
+  border: 0.2rem solid  transparent;
+  border-left: 0.2rem solid rgb(240, 4, 4);
+}
+.header-icon > img {
+  display: inline-block;
+  border-radius: 50%;
+  width: 70%;
+}

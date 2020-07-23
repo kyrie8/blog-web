@@ -1,0 +1,15 @@
+.footer-div{
+  text-align: center;
+  width: 100%;
+  padding: 1rem;
+  color:rgb(149, 228, 252);
+  height: 3rem;
+  background-color: brown;
+  opacity: .4;
+}
+.footer-div > div {
+  letter-spacing: .2rem;
+}
+.footer-div > div:hover{
+  transform: rotateY(180deg);
+}
